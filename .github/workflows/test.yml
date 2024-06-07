@@ -31,8 +31,7 @@ jobs:
   lint:
     name: Lint
     runs-on: "ubuntu-latest"
-    steps: 
-      name: Linting!
+    steps:
       # Also add checkout and setup go steps here, like in previous tasks
       - name: Verify formatting
         run: |
